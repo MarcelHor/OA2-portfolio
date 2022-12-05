@@ -418,4 +418,70 @@ footer hr
     {
         color: #D43F52;
     }
+
+#questions
+    {
+        background: #1a1a1a;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+#questions h2
+    {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+#questions .panel
+    {
+        border: 1px solid #ffffff;
+        border-radius: 0;
+        box-shadow: none;
+        margin-bottom: 20px;
+    }
+#questions .panel-heading
+    {
+        background: #1a1a1a;
+        border-radius: 0;
+        color: #ffffff;
+        padding: 0;
+    }
+#questions .panel-title
+    {
+        font-size: 18px;
+        font-weight: bold;
+        padding: 15px 0;
+        text-align: center;
+    }
+#questions .panel-title a
+    {
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+    }
+#questions .panel-title a:hover
+    {
+        color: #D43F52;
+    }
+#questions .panel-title a:after
+    {
+        content: "\f068";
+        font-family: "FontAwesome";
+        float: right;
+        padding-right: 10px;
+    }
+#questions .panel-title a.collapsed:after
+    {
+        content: "\f067";
+    }
+#questions .panel-body
+    {
+        background: #ffffff;
+        color: #333333;
+        padding: 15px;
+    }
+#questions .panel-body p
+    {
+        font-size: 14px;
+        line-height: 24px;
+    }
+/* end questions */
 /* end social icon */
