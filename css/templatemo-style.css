@@ -483,5 +483,144 @@ footer hr
         font-size: 14px;
         line-height: 24px;
     }
-/* end questions */
-/* end social icon */
+
+/* experience
+----------------------------------------------- */
+#experience
+    {
+        background: #1a1a1a;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+#experience h2
+    {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+#experience .timeline
+    {
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+#experience .timeline:before
+    {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        width: 2px;
+        background: #ffffff;
+        margin-left: -1px;
+    }
+#experience .timeline > li
+    {
+        position: relative;
+        min-height: 50px;
+        margin-bottom: 50px;
+    }
+#experience .timeline > li:before,
+#experience .timeline > li:after
+    {
+        content: " ";
+        display: table;
+    }
+#experience .timeline > li:after
+    {
+        clear: both;
+    }
+#experience .timeline > li .timeline-panel
+    {
+        width: 46%;
+        float: left;
+        border: 1px solid #ffffff;
+        border-radius: 2px;
+        padding: 20px;
+        position: relative;
+        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    }
+#experience .timeline > li .timeline-panel:before
+    {
+        position: absolute;
+        top: 26px;
+        right: -15px;
+        display: inline-block;
+        border-top: 15px solid transparent;
+        border-left: 15px solid #ffffff;
+        border-right: 0 solid #ffffff;
+        border-bottom: 15px solid transparent;
+        content: " ";
+    }
+#experience .timeline > li .timeline-panel:after
+    {
+        position: absolute;
+        top: 27px;
+        right: -14px;
+        display: inline-block;
+        border-top: 14px solid transparent;
+        border-left: 14px solid #D43F52;
+        border-right: 0 solid #D43F52;
+        border-bottom: 14px solid transparent;
+        content: " ";
+    }
+#experience .timeline > li .timeline-image
+    {
+        position: absolute;
+        left: 50%;
+        margin-left: -40px;
+        width: 80px;
+        height: 80px;
+        text-align: center;
+        color: #ffffff;
+        border: 7px solid #ffffff;
+        border-radius: 100%;
+        background-color: #D43F52;
+        z-index: 100;
+    }
+#experience .timeline > li .timeline-image h4
+    {
+        margin-top: 12px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+#experience .timeline > li.timeline-inverted > .timeline-panel
+    {
+        float: right;
+    }
+#experience .timeline > li.timeline-inverted > .timeline-panel:before
+    {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+#experience .timeline > li.timeline-inverted > .timeline-panel:after
+    {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+#experience .timeline > li:last-child
+    {
+        margin-bottom: 0;
+    }
+#experience .timeline .timeline-heading h4
+    {
+        margin-top: 0;
+        color: inherit;
+    }
+#experience .timeline .timeline-heading h4.subheading
+    {
+        text-transform: none;
+    }
+#experience .timeline .timeline-body > ul
+    {
+        margin-bottom: 0;
+    }
+#experience .timeline .timeline-body > ul > li
+    {
+        margin-bottom: 10px;
+    }
